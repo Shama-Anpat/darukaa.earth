@@ -39,3 +39,41 @@ Node.js ≥ 20
 PostgreSQL with PostGIS extension
 
 Git
+
+**Clone the repository**
+git clone git@github.com:yourusername/darukaa.earth.git
+cd darukaa.earth
+
+**Install dependencies**
+npm install
+
+**Run locally**
+npm start
+
+**⚙️ CI/CD Pipeline**
+
+Darukaa.Earth uses GitHub Actions for CI/CD:
+
+Runs linting and tests on every push and pull request.
+
+Builds the project automatically.
+
+Deploys to Vercel/Heroku/Render for a publicly accessible URL.
+
+**Code Quality**
+
+Pre-commit hooks using Husky + lint-staged:
+
+Auto-format with Prettier
+
+Run ESLint before every commit
+
+**📊 Usage**
+
+Access the live application: Darukaa.Earth
+
+Draw polygons to analyze specific geospatial areas.
+
+Visualize data using interactive charts and graphs.
+
+Export insights for reports or further analysis.
