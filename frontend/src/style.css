@@ -1,0 +1,38 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: #1e1e1e !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #2a2a2a;
+}
+
+input, textarea, select {
+  background-color: #1e1e1e !important;
+  color: #fff !important;
+  border: 1px solid #333 !important;
+}
+
+input::placeholder {
+  color: #888 !important;
+}
+
+.btn-primary {
+  background-color: #198754 !important; 
+  border-color: #198754 !important;
+}
+
+.btn-primary:hover {
+  background-color: #157347 !important;
+}
+
+a.nav-link {
+  color: #bbb !important;
+}
+
+a.nav-link:hover {
+  color: #0dcaf0 !important;
+}
